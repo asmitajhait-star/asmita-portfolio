@@ -1,0 +1,70 @@
+/* Reset & Body */
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif;}
+body {background:#f5f7fa; color:#222; transition:0.4s;}
+
+/* Header */
+header {background:linear-gradient(135deg,#667eea,#764ba2); color:white; text-align:center; padding:30px;}
+header h1 {font-size:2.5em;}
+header p {margin-top:5px; font-size:1.2em;}
+
+/* Navbar */
+nav {background:#222; text-align:center; padding:12px;}
+nav a {color:white; margin:15px; text-decoration:none; font-weight:bold; transition:0.3s;}
+nav a:hover {color:#667eea;}
+.dark-btn {margin-left:20px;padding:5px 10px; cursor:pointer;}
+
+/* Hero Section */
+.hero {text-align:center; padding:80px 20px; background:white; transition:0.3s;}
+.hero button {margin-top:20px; padding:12px 25px; border:none; background:#667eea; color:white; border-radius:6px; cursor:pointer; transition:0.3s;}
+.hero button:hover {background:#764ba2;}
+.profile-img {width:150px; border-radius:50%; margin-bottom:20px;}
+
+/* Sections */
+.container {padding:40px 20px; text-align:center;}
+section {display:none; transition:0.3s;}
+
+/* Skills */
+.skill {margin:15px 0; text-align:left; max-width:500px; margin-left:auto; margin-right:auto;}
+.progress {background:#ddd; border-radius:20px; overflow:hidden;}
+.progress div {height:12px; width:0; background:linear-gradient(90deg,#667eea,#764ba2); transition:1s;}
+
+/* Projects Carousel */
+.carousel {position:relative; overflow:hidden; margin:20px auto; max-width:900px;}
+.carousel-track {display:flex; transition:0.5s;}
+.carousel-item {min-width:100%; box-sizing:border-box; padding:20px; text-align:center; background:white; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.carousel-item img {width:100%; border-radius:10px; margin-bottom:10px;}
+.carousel-item a {text-decoration:none; color:#667eea; font-weight:bold;}
+.carousel-btn {position:absolute; top:50%; transform:translateY(-50%); background:#667eea; border:none; color:white; font-size:24px; padding:10px; border-radius:50%; cursor:pointer; transition:0.3s;}
+.carousel-btn:hover {background:#764ba2;}
+.prev {left:10px;} .next {right:10px;}
+
+/* Contact Form */
+form {display:flex; flex-direction:column; max-width:400px; margin:20px auto;}
+form input, form textarea {margin-bottom:15px; padding:12px; border-radius:6px; border:1px solid #ccc; transition:0.3s;}
+form input:focus, form textarea:focus {border-color:#667eea; outline:none;}
+form button {padding:12px; border:none; background:#667eea; color:white; border-radius:6px; cursor:pointer; transition:0.3s;}
+form button:hover {background:#764ba2;}
+
+/* WhatsApp Floating Button */
+.whatsapp {position:fixed; bottom:20px; right:20px; background:#25D366; color:white; font-size:28px; padding:15px; border-radius:50%; text-decoration:none; box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+
+/* Footer */
+footer {background:#222; color:white; text-align:center; padding:15px; margin-top:20px;}
+
+/* Resume Button */
+.resume-btn {display:inline-block; padding:12px 25px; background:#667eea; color:white; border-radius:8px; text-decoration:none; font-weight:bold; transition:0.3s;}
+.resume-btn:hover {background:#764ba2;}
+
+/* Dark Mode */
+.dark {background:#111; color:white;}
+.dark header {background:#000;}
+.dark nav {background:#000;}
+.dark .carousel-item, .dark form input, .dark form textarea, .dark .hero {background:#222; color:white;}
+.dark .carousel-btn {background:#764ba2;}
+
+/* Responsive */
+@media(max-width:768px){
+    header h1 {font-size:2em;}
+    nav a {display:block; margin:10px 0;}
+    .hero {padding:50px 10px;}
+}
