@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
 <header>
     <h1>Asmita Jha</h1>
     <p>BSc-IT Student | Aspiring Software Engineer</p>
+    <p>web developer</p>
 </header>
 
 <nav>
@@ -18,6 +19,10 @@
     <a href="#" onclick="showSection('about')">About</a>
     <a href="#" onclick="showSection('skills')">Skills</a>
     <a href="#" onclick="showSection('projects')">Projects</a>
+    <a href="#" onclick="showSection('education')">Studies</a>
+    <a href="#" onclick="showSection('certificates')">Certificates</a>
+    <a href="#" onclick="showSection('achievements')">Achievements</a>
+    <a href="#" onclick="showSection('services')">Services</a>
     <a href="#" onclick="showSection('contact')">Contact</a>
     <button class="dark-btn" onclick="toggleDarkMode()">🌙</button>
 </nav>
@@ -47,6 +52,35 @@
     <div class="skill"><p>Communication Skills</p><div class="progress"><div data-width="80%"></div></div></div>
 </section>
 
+<!-- ✅ Studies Section -->
+<section id="education" class="container">
+    <h2>My Studies</h2>
+
+    <p>🎓 BSc IT (Pursuing)</p>
+    <p>🏫 College Name: [SMT. DEVKIBA MOHANSINHJI CHAUHAN
+COLLEGE OF COMMERCE AND SCIENCE, SILVASSA]</p>
+    <p>📍 Location: Silvassa</p>
+    <p>📅 Year: 2023 - 2026</p>
+
+    <br>
+
+    <h2>Academics</h2>
+
+    <p>📘 SSC (10th)</p>
+    <p>Board: Maharashtra Board</p>
+
+    <br>
+
+    <p>📗 HSC (12th)</p>
+    <p>Board: Maharashtra Board</p>
+
+    <br>
+
+    <p>🎓 Graduation</p>
+    <p>University: Mumbai University</p>
+
+</section>
+
 <section id="projects" class="container">
     <h2>Projects</h2>
     <div class="carousel">
@@ -69,6 +103,14 @@
                 <p>HTML/CSS/JS Calculator Project.</p>
                 <a href="#" target="_blank">Live Preview</a>
             </div>
+
+            <div class="carousel-item">
+                <img src="project4.jpg" alt="🎨 PixelForge Pro">
+                <h3>🎨 PixelForge Pro</h3>
+                <p>Interactive Tools</p>
+                <p>Interactive Image Processing Web App Engineered a Flask-based web application utilizing OpenCV for server-side image processing, featuring capabilities for face detection, artistic sketching, and multi-format export.</p>
+                <a href="#" target="_blank">Live Preview</a>
+            </div>
         </div>
         <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
         <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
@@ -76,6 +118,75 @@
     <div style="margin-top:20px;">
         <a href="resume.pdf" download class="resume-btn">📄 Download Resume</a>
     </div>
+</section>
+
+<!-- ✅ Certificates Section -->
+<section id="certificates" class="container">
+    <h2>My Certificates</h2>
+
+    <div class="carousel-item">
+        <img src="certificate1.jpg" alt="Certificate 1">
+        <h3>SQL Bootcamp</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate2.jpg" alt="Certificate 2">
+        <h3>Prompt engineering</h3>
+    </div>
+    
+    <div class="carousel-item">
+        <img src="certificate3.jpg" alt="Certificate 3">
+        <h3>Python ATM Simulation Essentials Mini Project</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate4.jpg" alt="Certificate 4">
+        <h3>Poster making Competition</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate5.jpg" alt="Certificate 5">
+        <h3>CCC+</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate6.jpg" alt="Certificate 6">
+        <h3>Tally</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate7.jpg" alt="Certificate 7">
+        <h3>Computer Fundamentals,MS-Office,Word,Excel & Powerpoint and Internet</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate8.jpg" alt="Certificate 8">
+        <h3>HTML</h3>
+    </div>
+
+    <div class="carousel-item">
+        <img src="certificate9.jpg" alt="Certificate 9">
+        <h3>Python</h3>
+    </div>
+</section>
+
+<section id="achievements" class="container">
+    <h2>My Achievements</h2>
+
+    <p>🏆 1st Prize in College Coding Competition</p>
+    <p>📜 Completed Web Development Course</p>
+    <p>💡 Built Multiple Portfolio & Website Projects</p>
+
+</section>
+
+<section id="services" class="container">
+    <h2>My Services</h2>
+
+    <p>🌐 Website Design</p>
+    <p>📱 Responsive Website Development</p>
+    <p>🎨 UI/UX Design using Canva</p>
+    <p>⚡ Fast & Modern Websites</p>
+
 </section>
 
 <section id="contact" class="container">
